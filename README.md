@@ -13,15 +13,21 @@ In this project, we use the FAIRshake Tool (EXPLAIN THIS LATER) to conduct an as
 3. Allows adminstrators to automatically assess the overall usability or FAIRness of a suite of tools
  
 
-### Intro
+## Intro
+
+
 
 ### FAIR
 
+### Review of Exisiting Tools
+
 ### FAIRShake
+
+## Methods
 
 ### Using FAIRShake
 
-### Methods
+
 
 #### Metrics
 
