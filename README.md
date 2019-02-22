@@ -80,16 +80,9 @@ We also added non-machine readable metrics:
 
 
 
-### Using FAIRShake
+## Results
 
-
-
-#### Metrics
-
-#### Challenges and Assumptions
-We have chosen to assess tools based on metrics that can be automatically assessed through script rather than subject tool owners and site admins to manual assessment of tools.
-
-#### Future Recommendations
+![NCBI-Hackathon results](NCBI-Hackathon_results.png)
 
 
 
