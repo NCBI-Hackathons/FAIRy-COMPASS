@@ -56,6 +56,8 @@ In FAIRShake, a Rubric is comprised of a list of metrics.
 Once a Rubric is created, it can be used to assessed a website (or an object) such as GitHub or Dockstore. 
 For the purposes of this project, we reviewed previously saved rubrics in FAIRshake to see if there were any metrics that could be reused. At the end of this process, we developed the following machine-friendly metrics:
 
+![Rubic](rubic.png)
+
 1. The tool has a Dockerfile/Singularity recipe? (existence of ) (https://fairshake.cloud/metric/129)
 2. ReadMe (existence of with more than one line) (https://fairshake.cloud/metric/130)
 3. Licensing information is provided on the tool’s homepage. (https://fairshake.cloud/metric/9)
