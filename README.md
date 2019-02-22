@@ -84,6 +84,13 @@ We also added non-machine readable metrics:
 
 ![NCBI-Hackathon results](NCBI-Hackathon_results.png)
 
+## References
+Wilkinson, M.D., Dumontier, M., Aalbersberg, I.J.J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L.B., Bourne, P.E., Bouwman, J., Brookes, A.J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C.T., Finkers, R., Gonzalez-Beltran, A. and Mons, B. 2016. The FAIR Guiding Principles for scientific data management and stewardship. Scientific data 3, p. 160018.
+
+Mark D. Wilkinson, Susanna-Assunta Sansone, Erik Schultes, Peter Doorn, Luiz Olavo Bonino da Silva Santos & Michel Dumontier. A design framework and exemplar metrics for FAIRness. Scientific data 5, p. 180118 https://doi.org/10.1038/sdata.2018.118 
+
+Preprint:  Susanna-Assunta Sansone, et al. FAIRsharing, a cohesive community approach to the growth in standards, repositories and policies.  https://doi.org/10.1101/245183 
+
 
 
  
