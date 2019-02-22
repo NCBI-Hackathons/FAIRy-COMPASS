@@ -1,0 +1,4 @@
+extruct
+https://github.com/u8sand/PySwaggerClient/archive/v1.1.zip
+jsondiff
+objectpath

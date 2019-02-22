@@ -1,0 +1,7 @@
+version: '3'
+services:
+  assessment:
+    build: .
+    image: ncbi-hackathons-assessment
+    volumes:
+      - ./work:/work/work
