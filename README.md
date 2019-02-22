@@ -34,13 +34,47 @@ By facilitating the development of FAIR rubrics with metric reuse and enabling u
 
 ![FAIRshake description](rubic_description.png)
 
-### FAIR
-
-### Review of Exisiting Tools
-
-### FAIRShake
 
 ## Methods
+
+In this project, we focused on documenting the process of using FAIRshake to assess the FAIRness of tools and workflows created during previous NCBI Hackathons as an example.  
+The assessment spanned both GitHub and Dockstore. 
+Having this type of assessment of tools will allow users to more easily share tools and workflows by alerting future users as to the possible hurdles to adoption of a given tool.
+
+
+Currently there are 227 repositories from NCBI Hackathons.  
+As a continuously running event, it would be useful if previously produced tools could be reused in a future event; however, reusability of tools has been a challenge according to an internal Teach and Learn Hackathon in Feb 2018, which focused on reusability (unpublished result).  
+FAIRness assessment could provide an understanding and potentially improve the findability, accessibility, interoperability and reusability of NCBI Hackathon products.
+
+### Metrics Used
+Some have asserted that posting projects on GitHub is one way to facilitate reproducibility.
+We contend that the simple act of saving to a GitHub repository is not enough and that there needs be a minimum set of criteria that effectively describes the projects in a way that others understand. 
+To that end, we used FAIRShake to implement a minimum set of metrics by which to assess a GitHub Repository. 
+The result is a scale to which a digital resource is FAIR.
+
+In FAIRShake, a Rubric is comprised of a list of metrics. 
+Once a Rubric is created, it can be used to assessed a website (or an object) such as GitHub or Dockstore. 
+For the purposes of this project, we reviewed previously saved rubrics in FAIRshake to see if there were any metrics that could be reused. At the end of this process, we developed the following machine-friendly metrics:
+
+1. The tool has a Dockerfile/Singularity recipe? (existence of ) (https://fairshake.cloud/metric/129)
+2. ReadMe (existence of with more than one line) (https://fairshake.cloud/metric/130)
+3. Licensing information is provided on the tool’s homepage. (https://fairshake.cloud/metric/9)
+4. Source code is shared in a public repository and is documented. (https://fairshake.cloud/metric/5)
+5. The tool has a unique title. (https://fairshake.cloud/metric/60)
+6. The tool has an informative description. (https://fairshake.cloud/metric/131)
+7. The tool can be freely downloaded or accessed from a webpage. (https://fairshake.cloud/metric/2)
+8. Contact information is provided for the creator(s) of the tool. (https://fairshake.cloud/metric/27)
+
+We also added non-machine readable metrics:
+
+9. Information describing how to cite the tool is provided (https://fairshake.cloud/metric/28)
+10. Domain Classification (https://fairshake.cloud/metric/102)
+11. Versioning (https://fairshake.cloud/metric/6)
+12. Languages/File types (https://fairshake.cloud/metric/95)
+13. APIs (https://fairshake.cloud/metric/8)
+14. File provenance (including authorship history) (https://fairshake.cloud/metric/118)
+
+
 
 ### Using FAIRShake
 
