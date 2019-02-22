@@ -1,5 +1,7 @@
 # FAIRY-COMPASS: FAIRness-Evaluation-of-NCBI-Hackathon-Digital-Objects-using-FAIRshake
 
+[![FAIR Insignia](insignia.png)](https://fairshake.cloud/project/71/)
+
 ## Premise
 Assess the FAIRness of NCBI-Hackathon Tools on GitHub (and possibly DockStore)
 
