@@ -38,7 +38,7 @@ rl.on('line', line => {
         },
         { // ReadMe (existence of with more than one line)
           metric: 130,
-          answer: any(data.ls.map(file => file.name === "README" || file.name === "README.md")) && 1.0 || 0.0,
+          answer: any(data.ls.map(file => /readme(\.*)/i.exec(file.name) !== undefined)) && 1.0 || 0.0,
           comment: `README or README.md in ${data.ls.map(file => file.name).join(', ')}`,
         },
         { // Licensing information is provided on the tool’s homepage.
