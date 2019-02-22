@@ -51,10 +51,10 @@ FAIRness assessment could provide an understanding and potentially improve the f
 ### Metrics Used
 Some have asserted that posting projects on GitHub is one way to facilitate reproducibility.
 We contend that the simple act of saving to a GitHub repository is not enough and that there needs be a minimum set of criteria that effectively describes the projects in a way that others understand. 
-To that end, we used FAIRShake to implement a minimum set of metrics by which to assess a GitHub Repository. 
+To that end, we used FAIRshake to implement a minimum set of metrics by which to assess a GitHub Repository. 
 The result is a scale to which a digital resource is FAIR.
 
-In FAIRShake, a Rubric is comprised of a list of metrics. 
+In FAIRshake, a Rubric is comprised of a list of metrics. 
 Once a Rubric is created, it can be used to assessed a website (or an object) such as GitHub or Dockstore. 
 For the purposes of this project, we reviewed previously saved rubrics in FAIRshake to see if there were any metrics that could be reused. At the end of this process, we developed the following machine-friendly metrics:
 
