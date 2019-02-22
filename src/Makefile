@@ -15,5 +15,5 @@ work/metadata.json: work/.env github.sh
 work/assessment.json: assessment.js work/metadata.json
 	npx babel-node assessment.js < work/metadata.json > work/assessment.json
 
-commit: env work/assessment.json
+commit: work/.env work/assessment.json
 	ENV_FILE=work/.env python ./fairshake.py work/assessment.json
