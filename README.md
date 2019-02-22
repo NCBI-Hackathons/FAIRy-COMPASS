@@ -7,13 +7,13 @@ Assess the FAIRness of NCBI-Hackathon Tools on GitHub (and possibly DockStore)
 
 ## Abstract
 
-FAIR (Findable, Accessable, Interoperable, Re-usable) concepts have traditionally been linked to the concept of biomedical research data; we argue the same ideology should be applied to bioinformatics tools as well. 
+FAIR (Findable, Accessable, Interoperable, Reusable) concepts have traditionally been linked to the concept of biomedical research data; we argue the same ideology should be applied to bioinformatics tools as well. 
 An increased emphasis on strengths and weaknesses of various tools and workflows can better enable reproducibility. 
 Such an assessment is important for the following reasons:
 
 1. Alerts tool owners to potential pitfalls that may prevent future users using their tools
 2. Allows administrators to automatically assess the overall usability or FAIRness of a suite of tools
-3. Assists future users searching for tools by displaying a fairSHAKE badge for the tool in question
+3. Assists future users searching for tools by displaying a FAIRshake badge for the tool in question
 
 To analyze the FAIR-ness of tools, we used a tool called FAIRshake, previously developed as part of the NIH Data Commons project. 
 We created and ran a script to scan the National Center for Biotechnology Information (NCBI)-Hackathon GitHub. 
