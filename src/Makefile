@@ -1,7 +1,11 @@
 ORG=NCBI-Hackathons
 
+.PRECIOUS: work/
+workdir:
+	mkdir -p work
+
 .PRECIOUS: work/.env
-work/.env:
+work/.env: workdir
 	./create_env.sh work/.env
 
 .PHONY: env

@@ -30,10 +30,22 @@ docker run -it ncbi-hackathons-assessment commit
 ## Makefile
 All dependencies need to be available to use the Makefile on your own system, these include; it may be simpler to use the Dockerfile which work with the same makefile commands at the end of it.
 
+system deps:
+- bash
+- jq
+- curl
+- python3
+
+python deps:
 ```
-system deps: bash, jq, curl, python
-python deps: pip install -r requirements.txt
-javascript deps: npm install
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+javascript deps:
+```
+npm install
 ```
 
 ```bash
@@ -41,10 +53,10 @@ javascript deps: npm install
 make env
 
 # Crawl github repos, creating a metadata.json
-make metadata.json
+make work/metadata.json
 
 # Use assess the fields available in metadata.json, constructing an assessment.json
-make assessment.json
+make work/assessment.json
 
 # Send the assessmens to FAIRshake
 make commit
